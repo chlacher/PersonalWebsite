@@ -1,2 +1,7 @@
 #!/bin/bash
 /etc/init.d/lighttpd stop
+
+if [[ $* == *-v* ]]
+then
+/etc/init.d/lighttpd status
+fi

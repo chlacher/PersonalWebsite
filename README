@@ -1,3 +1,11 @@
 ---------------------------------------
 Why are you reading this?
 ---------------------------------------
+
+Basic Architecture
+This is a simple lighttpd server. 
+  -My base directory /var/www/servers/clarkelacher.com/src symlinks to this.
+  -My /var/lighttpd/lighttpd.conf symlinks to this config/lighttpd
+Uses AngularJS and BootstrapCSS
+  - Angular allows a nice organizational framework
+  - Bootstrap gives good built-in styled objects
